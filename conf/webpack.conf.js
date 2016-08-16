@@ -32,6 +32,9 @@ module.exports = {
         ]
       },
       {
+          test: /\.(eot|woff|woff2|svg|ttf)([\?]?.*)$/, loader: "file-loader"
+      },
+      {
         test: /\.ts$/,
         exclude: /node_modules/,
         loaders: [
